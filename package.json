@@ -1,0 +1,25 @@
+{
+  "name": "eject-media",
+  "version": "0.0.1",
+  "description": "Safely eject media on all major platforms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eject",
+    "unmount"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayalfredprufrock/node-eject-media.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jayalfredprufrock/node-eject-media/issues"
+  },
+  "author": "Andrew Smiley <jayalfredprufrock@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "umount": "^1.1.5"
+  }
+}
