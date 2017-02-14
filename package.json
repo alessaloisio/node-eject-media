@@ -18,8 +18,5 @@
     "url": "https://github.com/jayalfredprufrock/node-eject-media/issues"
   },
   "author": "Andrew Smiley <jayalfredprufrock@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "umount": "^1.1.5"
-  }
+  "license": "MIT"
 }

@@ -1,11 +1,17 @@
 # node-eject-media
 Safely eject media on Windows, OSX, and Linux
 
-In its present state, this project simply combines:
+Runs one of the following in a child_process:
 
-* https://github.com/jviotti/node-umount
-* with a windows binary, [EjectMedia](http://www.uwe-sieber.de/drivetools_e.html)
+* diskutil eject /drive (OSX)
+* eject -f /drive (Linux)
+* [EjectMedia](http://www.uwe-sieber.de/drivetools_e.html) Windows)
 
-Original authors above deserve all credit.
+#Usage
 
-This is a WIP. Use at your own risk until package reaches 1.0 status.
+    var ejectMedia = require('eject-media');
+    ejectMedia.eject('/Volumes/Drive', function(error, stdin, stdout) {
+    	
+    	if (!error) console.log('ejected!';)
+
+    });
